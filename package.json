@@ -22,7 +22,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mobx-react": "^7.0.0",
+    "mobx": "^6.0.3",
+    "mobx-react": "^7.0.1",
     "mobx-react-lite": "^3.1.0",
     "nano-id": "^1.1.0",
     "react": "^17.0.1",
