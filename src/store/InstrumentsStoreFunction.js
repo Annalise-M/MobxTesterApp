@@ -3,9 +3,17 @@ import { nanoid } from 'nanoid';
 export const createInstrumentStore = () => {
   return ({
     instruments: [],
-    addInstrument(instrumentMakeModel) {
+    addInstrument({ 
+      makeModel,
+      makeYear,
+      style,
+      scale,
+      condition,
+      url,
+      price
+    }) {
       this.instruments.push({
-        instrumentMakeModel,
+        makeModel, makeYear, style, scale, condition, url, price,
         id: nanoid(),
       });
     },
